@@ -1,0 +1,41 @@
+.statistics {
+  text-align: center;
+  width: 400px;
+  border-radius: 5px;
+  background-color: rgb(247, 247, 247);
+}
+
+.title {
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  background-color: #fff;
+  color: black;
+}
+
+.statList {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  padding: 8px;
+}
+
+.label {
+  text-align: center;
+  /* font-size: smaller; */
+  margin-bottom: 8px;
+}
+
+.percentage {
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+}
